@@ -4,9 +4,9 @@ import { TitleCycler } from './components/title-cycler'
 
 export default function Page() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-orange-950 to-black text-white">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-orange-950 to-black text-white perspective-1000">
       <main className="flex-1 flex items-center justify-center w-full p-4">
-        <div className="text-center space-y-12">
+        <div className="text-center space-y-12 preserve-3d">
           <TitleCycler />
           
           <div className="max-w-3xl mx-auto">
@@ -29,7 +29,7 @@ export default function Page() {
             rel="noopener noreferrer"
             className="text-orange-400/50 hover:text-orange-400/80 transition-colors"
           >
-            @OnlyTrueNote7
+           Made by @OnlyTrueNote7
           </a>
         </div>
       </footer>

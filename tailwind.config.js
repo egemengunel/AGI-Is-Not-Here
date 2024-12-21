@@ -7,22 +7,23 @@ export default {
   theme: {
     extend: {
       keyframes: {
-        spring: {
+        slam: {
           '0%': { 
-            transform: 'translateY(-50px)',
+            transform: 'scale(2) translateZ(100px)',
             opacity: '0'
           },
-          '50%': {
-            opacity: '0.6'
+          '60%': {
+            transform: 'scale(0.9) translateZ(-20px)',
+            opacity: '1'
           },
           '100%': { 
-            transform: 'translateY(0)',
+            transform: 'scale(1) translateZ(0)',
             opacity: '1'
           }
         }
       },
       animation: {
-        spring: 'spring 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) both'
+        slam: 'slam 0.8s cubic-bezier(.68,-0.6,.32,1.8) both'
       }
     },
   },
