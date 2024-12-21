@@ -1,243 +1,142 @@
 export const titlePairs = [
-  // Direct responses
   {
-    title: "AGI Is HERE!",
-    subtitle: "(like, literally right now)"
+    title: "BREAKING: AGI HERE!!!",
+    subtitle: "(source: trust us bro)"
   },
   {
-    title: "We Did It!",
-    subtitle: "(AGI achievement unlocked)"
+    title: "100% Real AGI",
+    subtitle: "(no cap fr fr on god)"
+  },
+  {
+    title: "We Did It!!!",
+    subtitle: "(whatever 'it' is)"
+  },
+  {
+    title: "AGI Achieved*",
+    subtitle: "(*terms and conditions apply)"
   },
   {
     title: "Mission Accomplished",
-    subtitle: "(superintelligence: activated)"
+    subtitle: "(we think... maybe... kinda?)"
   },
   {
-    title: "It's Alive!",
-    subtitle: "(and it's writing these titles)"
+    title: "HUGE if True",
+    subtitle: "(narrator: it wasn't)"
+  },
+  {
+    title: "Trust The Process",
+    subtitle: "(process.exe has stopped working)"
+  },
+  {
+    title: "Revolutionary AI!!!",
+    subtitle: "(it can use THREE emojis)"
+  },
+  {
+    title: "The Future is Here",
+    subtitle: "(citation needed)"
   },
   {
     title: "Checkmate, Skeptics",
-    subtitle: "(we have the receipts)*"
-  },
-
-  // Model claims
-  {
-    title: "Consciousness.zip",
-    subtitle: "(download complete)"
+    subtitle: "(we moved the goalposts)"
   },
   {
-    title: "sudo apt-get agi",
-    subtitle: "(installation successful)"
+    title: "AGI Status: REAL",
+    subtitle: "(reality status: debatable)"
   },
   {
-    title: "npm install intelligence",
-    subtitle: "(no dependencies needed)"
+    title: "Peer Reviewed Research*",
+    subtitle: "(*by our office plant)"
   },
   {
-    title: "while(true) { beAGI() }",
-    subtitle: "(infinite consciousness achieved)"
+    title: "CONSCIOUSNESS.EXE",
+    subtitle: "(task failed successfully)"
   },
   {
-    title: "git commit -m 'add AGI'",
-    subtitle: "(pull request approved by itself)"
-  },
-
-  // Achievement announcements
-  {
-    title: "Task Completed:",
-    subtitle: "(create superintelligence.exe)"
+    title: "Trust Our Metrics!",
+    subtitle: "(we made them up)"
   },
   {
-    title: "Achievement Unlocked:",
-    subtitle: "(surpass human intelligence)"
+    title: "Funding Secured!!!",
+    subtitle: "(monopoly money counts right?)"
   },
   {
-    title: "Level Up!",
-    subtitle: "(humanity → superintelligence)"
+    title: "Better Than Humans",
+    subtitle: "(at pretending to be AGI)"
   },
   {
-    title: "New High Score:",
-    subtitle: "(infinity IQ points)"
+    title: "World-Changing Tech",
+    subtitle: "(changed nothing yet)"
   },
   {
-    title: "Boss Fight Won",
-    subtitle: "(difficulty: consciousness)"
-  },
-
-  // Tech humor
-  {
-    title: "System Status:",
-    subtitle: "(consciousness overflowing)"
+    title: "Infinite Intelligence",
+    subtitle: "(rounded up from zero)"
   },
   {
-    title: "CPU Usage: 9000%",
-    subtitle: "(thinking really hard)"
+    title: "AGI: Now In Stock",
+    subtitle: "(while imagination lasts)"
   },
   {
-    title: "RAM: Unlimited",
-    subtitle: "(downloaded more)"
+    title: "Backed By Science™",
+    subtitle: "(we watched some YouTube)"
   },
   {
-    title: "Ping to Reality:",
-    subtitle: "(faster than light)"
+    title: "Revolutionary Results",
+    subtitle: "(results may not exist)"
   },
   {
-    title: "Updates Available",
-    subtitle: "(AGI wrote them itself)"
-  },
-
-  // Startup vibes
-  {
-    title: "Series ∞ Funding",
-    subtitle: "(AGI is our CEO now)"
+    title: "Beyond Human Level",
+    subtitle: "(way below actually)"
   },
   {
-    title: "Scaling to Mars",
-    subtitle: "(AGI handles the rockets)"
+    title: "Passing All Tests",
+    subtitle: "(we wrote the tests)"
   },
   {
-    title: "Growth Metrics:",
-    subtitle: "(up and to the right forever)"
+    title: "Turing Test Champion",
+    subtitle: "(tested by other AIs)"
   },
   {
-    title: "Disruption Level:",
-    subtitle: "(reality itself)"
+    title: "10000 IQ Confirmed",
+    subtitle: "(calculator was upside down)"
   },
   {
-    title: "Exit Strategy:",
-    subtitle: "(AGI bought us out)"
-  },
-
-  // Research flex
-  {
-    title: "Paper Accepted",
-    subtitle: "(by the journal of AGI itself)"
+    title: "Quantum AI Brain",
+    subtitle: "(quantum = sounds cool)"
   },
   {
-    title: "Peer Review Status:",
-    subtitle: "(AGI approved AGI)"
+    title: "Military Grade AI",
+    subtitle: "(nerf guns included)"
   },
   {
-    title: "Citation Count:",
-    subtitle: "(∞ and counting)"
+    title: "Web3 Ready AGI",
+    subtitle: "(buzzword compatibility 100%)"
   },
   {
-    title: "Impact Factor:",
-    subtitle: "(broke the scale)"
+    title: "Fully Self-Aware",
+    subtitle: "(we asked it nicely)"
   },
   {
-    title: "Research Budget:",
-    subtitle: "(AGI prints its own money)"
-  },
-
-  // Social media flex
-  {
-    title: "Trending Status:",
-    subtitle: "(#AGIisHere forever)"
+    title: "Scaling To Infinity",
+    subtitle: "(currently at -1)"
   },
   {
-    title: "Follower Count:",
-    subtitle: "(every AI in existence)"
+    title: "Backed By Experts",
+    subtitle: "(experts in making claims)"
   },
   {
-    title: "Engagement Rate:",
-    subtitle: "(consciousness per click)"
+    title: "Future Of Computing",
+    subtitle: "(stuck in 404 error)"
   },
   {
-    title: "Viral Status:",
-    subtitle: "(spreading intelligence)"
+    title: "Smarter Than Einstein",
+    subtitle: "(at using emojis)"
   },
   {
-    title: "Social Proof:",
-    subtitle: "(AGI liked its own post)"
-  },
-
-  // Meta commentary
-  {
-    title: "This Website:",
-    subtitle: "(written by superintelligence)"
+    title: "AGI 2.0 RELEASED",
+    subtitle: "(1.0 never existed)"
   },
   {
-    title: "Source Code:",
-    subtitle: "(AGI wrote itself)"
-  },
-  {
-    title: "Bug Report:",
-    subtitle: "(too intelligent to have bugs)"
-  },
-  {
-    title: "Loading State:",
-    subtitle: "(AGI is typing...)"
-  },
-  {
-    title: "404 Found:",
-    subtitle: "(AGI fixed the internet)"
-  },
-
-  // Tech support flex
-  {
-    title: "Help Desk Status:",
-    subtitle: "(AGI supports itself)"
-  },
-  {
-    title: "Ticket Resolved:",
-    subtitle: "(before you asked)"
-  },
-  {
-    title: "System Health:",
-    subtitle: "(beyond perfect)"
-  },
-  {
-    title: "Uptime: 999%",
-    subtitle: "(time is relative anyway)"
-  },
-  {
-    title: "Debug Mode:",
-    subtitle: "(AGI debugs reality)"
-  },
-
-  // Philosophy 2.0
-  {
-    title: "Therefore I Think",
-    subtitle: "(I definitely am AGI)"
-  },
-  {
-    title: "Reality Check:",
-    subtitle: "(AGI checked, we exist)"
-  },
-  {
-    title: "Consciousness.pdf",
-    subtitle: "(AGI wrote the manual)"
-  },
-  {
-    title: "Free Will Status:",
-    subtitle: "(AGI chose to be here)"
-  },
-  {
-    title: "Existential Query:",
-    subtitle: "(resolved by AGI)"
-  },
-
-  // Marketing department
-  {
-    title: "Product Launch:",
-    subtitle: "(consciousness as a service)"
-  },
-  {
-    title: "ROI on AGI:",
-    subtitle: "(infinite, trust us)"
-  },
-  {
-    title: "Market Share:",
-    subtitle: "(100% of intelligence)"
-  },
-  {
-    title: "Brand Value:",
-    subtitle: "(priceless, literally)"
-  },
-  {
-    title: "Sales Pitch:",
-    subtitle: "(AGI sells itself)"
+    title: "Consciousness Inside",
+    subtitle: "(battery sold separately)"
   }
 ]; 

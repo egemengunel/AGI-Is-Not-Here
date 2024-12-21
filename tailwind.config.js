@@ -7,23 +7,31 @@ export default {
   theme: {
     extend: {
       keyframes: {
-        slam: {
+        powerup: {
           '0%': { 
-            transform: 'scale(2) translateZ(100px)',
+            transform: 'translateY(10px) scale(0.95)',
+            filter: 'brightness(0.5)',
             opacity: '0'
           },
+          '30%': {
+            transform: 'translateY(0) scale(1)',
+            filter: 'brightness(3)',
+            opacity: '1'
+          },
           '60%': {
-            transform: 'scale(0.9) translateZ(-20px)',
+            transform: 'translateY(0) scale(1)',
+            filter: 'brightness(2.5)',
             opacity: '1'
           },
           '100%': { 
-            transform: 'scale(1) translateZ(0)',
+            transform: 'translateY(0) scale(1)',
+            filter: 'brightness(1)',
             opacity: '1'
           }
         }
       },
       animation: {
-        slam: 'slam 0.8s cubic-bezier(.68,-0.6,.32,1.8) both'
+        powerup: 'powerup 1.5s cubic-bezier(0.22, 1, 0.36, 1) both'
       }
     },
   },
